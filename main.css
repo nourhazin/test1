@@ -1,0 +1,34 @@
+a{
+    display: block;
+    background-color: navy;
+    color: white;
+    margin: 20px 0;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px 100px ; 
+    text-decoration: none;
+    cursor: pointer;
+}
+a:link{
+    background-color: hotpink;
+
+}
+a:visited{
+    background-color: orange;
+
+}
+a:hover{
+    background-color: royalblue;
+}
+a:focus{
+    background-color: blueviolet;
+}
+a:active{
+    background-color: greenyellow;
+}
+li{
+    list-style-type: circle;
+    border: 1px solid;
+    list-style-position: inside;
+    list-style-image: url('../image/download.png');
+}
